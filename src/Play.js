@@ -35,7 +35,7 @@ const Play = () => {
     localStorage.setItem("jki", ipad.ip)
 
     const generateRandomNumber = () => {
-        const newRandomNumber = Math.floor(Math.random() * 10) + 1; // Generates a random number between 1 and 100
+        const newRandomNumber = Math.floor(Math.random() * 20) + 1; // Generates a random number between 1 and 100
         setQno(newRandomNumber);
     }
 
